@@ -1,0 +1,178 @@
+﻿Tipo;País;Bodega;Nombre del Vino / Gama;Precio (MXN);Imagen
+BLANCOS;;;;;
+Blancos;Argentina;Mosquita Muerta;Mosquita Muerta Blend de Blancas;1936;mosquita-muerta-blend-de-blancas.png
+Blancos;Chile;Casas Patronales;Casas Patronales Gran Reserva Chardonnay;876;casas-patronales-gran-reserva-chardonnay.png
+Blancos;Chile;Casas Patronales;Casas Patronales Gran Reserva Sauvignon Blanc;876;casas-patronales-gran-reserva-sauvignon-blanc.png
+Blancos;Chile;Casas Patronales (Maucho);Maucho Reserva Viognier;684;maucho-reserva-viognier.png
+Blancos;Chile;Viña Casablanca;Viña Casablanca Nimbus Single Vineyard Chardonnay;867;vina-casa-blanca-nimbus-single-vineyard-chardonnay.png
+Blancos;Chile;Viña Casablanca;Viña Casablanca Nimbus Single Vineyard Sauvignon Blanc;867;vina-casa-blanca-nimbus-single-vineyard-sauvignon-blanc.png
+Blancos;España;Paco & Lola;Paco & Lola Albariño;1333;paco-y-lola-albarino.png
+Blancos;España;Monteabellón (Avaniel);Avaniel DO Rueda Verdejo;740;avaniel-do-rueda-verdejo.png
+Blancos;España;Viña Pomal;Viña Pomal Blanco;692;vina-pomal-blanco.png
+Blancos;Francia;Manuel Olivier;Manuel Olivier Bourgogne Hautes-Côtes De Nuits Blanc;2414;manuel-olivier-bourgogne-hautes-cotes-de-nuits-blanc.png
+Blancos;Francia;Manuel Olivier;Manuel Olivier Bourgogne Blanc;1591;manuel-olivier-bourgogne-blanc.png
+Blancos;Francia;Bestheim;Bestheim Riesling Des Chasseurs De Lune;1296;bestheim-riesling-des-chasseurs-de-lune.png
+Blancos;Francia;Bestheim;Bestheim Gewurztraminer Alsacia;1294;bestheim-gewurztraminer-alsacia.png
+Blancos;Italia;Alessandro Berselli;Alessandro Berselli Signature Collection Sauvignon Blanc;1984;alessandro-berselli-signature-collection-sauvignon-blanc.png
+Blancos;Italia;Bottega;Bottega Pinot Grigio Delle Venezie;688;bottega-pinot-grigio-delle-venezie.png
+Blancos;México;Altotinto;Altotinto Elite I Albariño;1435;altotinto-elite-i-albarino.png
+Blancos;México;Santa Elena;Santa Elena Sophie Blanco;1200;santa-elena-sophie-blanco.png
+Blancos;México;Parvada;Parvada Blanco;1088;parvada-blanco.png
+Blancos;México;Altotinto;Altotinto Chardonnay;910;altotinto-chardonnay.png
+Blancos;México;Altotinto;Altotinto Sauvignon Blanc;910;altotinto-sauvignon-blanc.png
+Blancos;Nueva Zelanda;Southern Ocean;Southern Ocean Sauvignon Blanc NZ;954;southern-ocean-sauvignon-blanc-nz.png
+Blancos;USA;Titus Vineyards;Titus Sauvignon Blanc;2392;titus-sauvignon-blanc.png
+Blancos;USA;Citation Wines;Citation Oregon Chardonnay;2146;citation-oregon-chardonnay.png
+Blancos;USA;Artesa;Artesa Estate Vineyard Chardonnay;2093;artesa-estate-vineyard-chardonnay.png
+Blancos;USA;Artesa;Artesa Napa Valley Sauvignon Blanc;1370;artesa-napa-valley-sauvignon-blanc.png
+Blancos;USA;Murphy Goode;Murphy Goode Chardonnay;1392;murphy-goode-chardonnay.png
+Blancos;USA;Murphy Goode;Murphy Goode Sauvignon Blanc;1261;murphy-goode-sauvignon-blanc.png
+Blancos;USA;Airfield Estates;Airfield Estates Sauvignon Blanc;1363;airfield-estates-sauvignon-blanc.png
+Blancos;USA;Granite Hill;Granite Hill Cellars Pinot Grigio;899;granite-hill-cellars-pinot-grigio.png
+Blancos;USA;Granite Hill;Granite Hill Cellars Chardonnay;899;granite-hill-cellars-chardonnay.png
+ROSADOS;;;;;
+Rosados;España;Viña Pomal;Viña Pomal Rosado;692;vina-pomal-rosado.png
+Rosados;España;Monteabellón (Avaniel);Avaniel Rosado;650;avaniel-rosado.png
+Rosados;Francia;Mimi en Provence;Mimi En Provence Rosé;1428;mimi-en-provence-gamay.png
+Rosados;México;Parvada;Parvada Rosado;1088;parvada-rosado.png
+Rosados;USA;Artesa;Artesa Rosé;1370;artesa-rose.png
+Rosados;USA;Art+Farm;The Girls in the Vineyard (White Zinfandel);563;the-girls-in-the-vineyard.png
+TINTOS;;;;;
+Tintos;Argentina;Mosquita Muerta;Mosquita Muerta Malcriado;6375;mosquita-muerta-malcriado.png
+Tintos;Argentina;Mosquita Muerta;Mosquita Muerta Black;2963;mosquita-muerta-black.png
+Tintos;Argentina;Mosquita Muerta;Mosquita Muerta Blend de Tintas;1936;mosquita-muerta-blend-de-tintas.png
+Tintos;Argentina;Mosquita Muerta;Mosquita Muerta Blend de Malbec;1936;mosquita-muerta-blend-de-malbec.png
+Tintos;Argentina;Finca El Origen;Finca El Origen Ícono PHI;2560;finca-el-origen-icono-phi.png
+Tintos;Argentina;Finca El Origen;Finca El Origen Gran Reserva Malbec;1215;finca-el-origen-gran-reserva-malbec.png
+Tintos;Argentina;Finca El Origen;Finca El Origen Gran Reserva Cabernet Sauvignon;1215;finca-el-origen-gran-reserva-cabernet-sauvignon.png
+Tintos;Argentina;Finca El Origen;Finca El Origen Andes Blend;874;finca-el-origen-andes-blend.png
+Tintos;Argentina;Séptima;Séptima Lote Especial Gran Reserva Malbec;1798;septima-lote-especial-gran-reserva-malbec.png
+Tintos;Argentina;Séptima;Séptima Obra Malbec;777;septima-obra-malbec.png
+Tintos;Argentina;Séptima;Séptima Obra Cabernet Franc;777;septima-obra-cabernet-franc.png
+Tintos;Argentina;Séptima;Séptima Obra Cabernet Sauvignon;777;septima-obra-cabernet-sauvignon.png
+Tintos;Chile;Casas Patronales;Casas Patronales Ñeque;2419;casas-patronales-neque.png
+Tintos;Chile;Casas Patronales;Casas Patronales Sabio;2342;casas-patronales-sabio.png
+Tintos;Chile;Casas Patronales;Casas Patronales Leal Gran Carmenere;1852;casas-patronales-leal-gran-carmenere.png
+Tintos;Chile;Casas Patronales;Don Silvestre Ícono DS;1434;don-silvestre-icono-ds.png
+Tintos;Chile;Casas Patronales;Casas Patronales Mixtura Red Blend;1225;casas-patronales-mixtura-red-blend.png
+Tintos;Chile;Casas Patronales;Vigno Vignadores de Carignan;956;vigno-vignadores-de-carignan.png
+Tintos;Chile;Casas Patronales;Casas Patronales Gran Reserva Syrah;876;casas-patronales-gran-reserva-syrah.png
+Tintos;Chile;Casas Patronales;Casas Patronales Gran Reserva Carmenere;876;casas-patronales-gran-reserva-carmenere.png
+Tintos;Chile;Casas Patronales;Casas Patronales Gran Reserva Cabernet Sauvignon;876;casas-patronales-gran-reserva-cabernet-sauvignon.png
+Tintos;Chile;Viña Casablanca;Viña Casablanca Ícono Neblus Blend;2001;vina-casa-blanca-icono-neblus-blend.png
+Tintos;Chile;Viña Casablanca;Viña Casablanca Ícono Neblus (Syrah/Pinot);2001;vina-casa-blanca-icono-neblus-syrah-pinot-noir.png
+Tintos;Chile;Viña Casablanca;Viña Casablanca Nimbus Single Vineyard Merlot;867;vina-casa-blanca-nimbus-single-vineyard-merlot.png
+Tintos;Chile;Viña Casablanca;Viña Casablanca Nimbus Single Vineyard Pinot Noir;867;vina-casa-blanca-nimbus-single-vineyard-pinot-noir.png
+Tintos;Chile;Viña Casablanca;Viña Casablanca Nimbus Single Vineyard Cabernet Sauvignon;867;vina-casa-blanca-nimbus-single-vineyard-cabernet-sauvignon.png
+Tintos;España;Monteabellón;Monteabellón Finca La Blanquera;4171;monteabellon-finca-la-blanquera.png
+Tintos;España;Monteabellón;Monteabellón 24 Meses Finca Matambres;2277;monteabellon-24-meses-finca-matambres.png
+Tintos;España;Monteabellón;Avaniel Crianza;1465;avaniel-crianza.png
+Tintos;España;Monteabellón;Avaniel Roble;817;avaniel-roble.png
+Tintos;España;Pago de Carraovejas;Pago de Carraovejas Crianza;2999;pago-de-carraovejas-crianza.png
+Tintos;España;Viña Zaco;Viña Zaco Viñedo Singular;2922;vina-zaco-vinedo-singular.png
+Tintos;España;La Vicalanda;La Vicalanda Gran Reserva;2730;la-vicalanda-gran-reserva.png
+Tintos;España;Scala Dei;Scala Dei Priorat;2229;scala-dei-priorat.png
+Tintos;España;Carmelo Rodero;Carmelo Rodero Crianza;2139;carmelo-rodero-crianza.png
+Tintos;España;Carmelo Rodero;Carmelo Rodero 9 Meses;1637;carmelo-rodero-9-meses.png
+Tintos;España;Legaris;Páramo de Legaris;1440;paramo-de-legaris.png
+Tintos;España;Viña Pomal;Viña Pomal 106 Barricas;1440;vina-pomal-106-barricas.png
+Tintos;España;Viña Pomal;Viña Pomal Reserva;1111;vina-pomal-reserva.png
+Tintos;España;Finca Villacreces;Pruno Villacreces;1126;pruno-villacreces.png
+Tintos;Francia;Smith Haut Lafitte;Le Petit Haut Lafitte Pessac Leognan;3626;le-petit-haut-lafitte-pessac-leognan.png
+Tintos;Francia;Manuel Olivier;Manuel Olivier Bourgogne Hautes-Côtes De Nuits Rouge;2414;manuel-olivier-bourgogne-hautes-cotes-de-nuits-rouge-vieilles-vignes.png
+Tintos;Francia;Manuel Olivier;Manuel Olivier Bourgogne Rouge;1659;manuel-olivier-bourgogne-rouge.png
+Tintos;Francia;Brane-Cantenac;Margaux De Brane;2159;margaux-de-brane.png
+Tintos;Francia;Cos d'Estournel;G D´estournel Médoc;2005;g-d-estournel-medoc.png
+Tintos;Francia;Chateau Maurac;Chateau Mourac Haut-Médoc Cru Bourgeois;1949;chateau-mourac-haut-medoc-cru-bourgeois.png
+Tintos;Francia;Chateau Maurac;Chateau Mourac Les Jumelles Haut-Médoc;1534;chateau-mourac-les-jumelles-haut-medoc.png
+Tintos;Francia;Chateau Potensac;Chapelle De Potensac Médoc;1428;chapelle-de-potensac-medoc.png
+Tintos;Francia;Chateau Tour D'Eyquem;Château Tour D´Eyquem Côtes de Bourg Bordeaux;1137;chateau-tour-d-eyquem-cotes-de-bourg-bordeaux.png
+Tintos;Francia;Chateau Carpena;Château Carpena Côtes de Bourg Bordeaux;1102;chateau-carpena-cotes-de-bourg-bordeaux.png
+Tintos;Francia;Chateau Calet;Château Calet Rouge Côtes de Bordeaux;1070;chateau-calet-rouge-cotes-de-bordeaux.png
+Tintos;Francia;Chateau Mont-Thabor;Chateau Mont-Thabor Cotes Du Rhone;1048;chateau-mont-thabor-cotes-du-rhone.png
+Tintos;Francia;Domaine Joncy;Domaine Joncy Empreinte Beaujolais Villages;970;domaine-joncy-empreinte-beaujolais-villages.png
+Tintos;Italia;Umberto Cesari;Umberto Merlese;4414;umberto-merlese.png
+Tintos;Italia;Tenuta Montecatone;Tenuta Montecatone Rosso;3634;tenuta-montecatone-rosso.png
+Tintos;Italia;Tenuta Montecatone;Montecatone Vintage Collection;2145;montecatone-vintage-collection.png
+Tintos;Italia;Tenuta Montecatone;Montecatone Vintage Collection Sangiovese Riserva;1481;montecatone-vintage-collection-sangiovese-riserva.png
+Tintos;Italia;Bottega;Bottega Brunello Di Montalcino;2872;bottega-brunello-di-montalcino.png
+Tintos;Italia;Bottega;Bottega Amarone Della Valpolicella;2718;bottega-amarone-della-valpolicella.png
+Tintos;Italia;Bottega;Bottega Rosso Di Montalcino;1652;bottega-rosso-di-montalcino.png
+Tintos;Italia;Bottega;Bottega Ripasso Della Valpolicella Superiore;1459;bottega-ripasso-della-valpolicella-superiore.png
+Tintos;Italia;Bottega;Bottega Acino d'Oro Chianti DOCG;1276;bottega-acino-d-oro-chianti-docg.png
+Tintos;Italia;Bottega;Bottega Valpolicella Classico;1052;bottega-valpolicella-clasico.png
+Tintos;Italia;Bottega;Bottega Cabernet Sauvignon;668;bottega-cabernet-sauvignon.png
+Tintos;Italia;Sansilvestro;Sansilvestro Barolo DOCG “Patres”;2402;sansilvestro-barolo-docg-patres.png
+Tintos;Italia;Sansilvestro;"Sansilvestro Nebbiolo D´Alba ""Brumo""";1143;sansilvestro-nebbiolo-d-alba-brumo.png
+Tintos;Italia;Sansilvestro;Sansilvestro Piemonte DOC Barbera Passito;1030;sansilvestro-piemonte-doc-barbera-passito-appassimento.png
+Tintos;Italia;Alessandro Berselli;Alessandro Berselli Signature Collection Primitivo;1984;alessandro-berselli-signature-collection-primitivo.png
+Tintos;Italia;Tasca d'Almerita;Tasca D´Almerita Tenuta Regaleali Lamuri;1451;tasca-d-almerita-tenuta-regaleali-lamuri.png
+Tintos;Italia;Tasca d'Almerita;Tasca D´Almerita Sallier de la Tour Syrah;1081;tasca-d-almerita-sallier-de-la-tour-syrah.png
+Tintos;México;Monte Xanic;Monte Xanic Gran Ricardo;4158;monte-xanic-gran-ricardo.png
+Tintos;México;Monte Xanic;Monte Xanic Cabernet Sauvignon;1810;monte-xanic-cabernet-sauvignon.png
+Tintos;México;Monte Xanic;Monte Xanic Cabernet Merlot;1810;monte-xanic-cabernet-merlot.png
+Tintos;México;Santo Tomás;Santo Tomás Duetto;3820;santo-tomas-duetto.png
+Tintos;México;Santo Tomás;Santo Tomás Único;3820;santo-tomas-unico.png
+Tintos;México;Altotinto;Altotinto Elite I Nebbiolo;2798;altotinto-elite-i-nebbiolo.png
+Tintos;México;Altotinto;Altotinto Elite II Tannat;2798;altotinto-elite-ii-tannat.png
+Tintos;México;Altotinto;Altotinto Nebbiolo;1263;altotinto-nebbiolo.png
+Tintos;México;Altotinto;Altotinto Selección;995;altotinto-seleccion.png
+Tintos;México;El Cielo;El Cielo Perseus Nebbiolo Sangiovese;2398;el-cielo-perseus.png
+Tintos;México;El Cielo;El Cielo Orion Tempranillo Grenache Merlot;2398;el-cielo-orion.png
+Tintos;México;El Cielo;Procyon Shiraz;2178;procyon-shiraz.png
+Tintos;México;Tres Raíces;Tres Raíces Gran Reserva;2280;tres-raices-gran-reserva.png
+Tintos;México;Tres Raíces;Tres Raíces Caladoc;2048;tres-raices-caladoc.png
+Tintos;México;Tres Raíces;Tres Raíces Merlot;1725;tres-raices-merlot.png
+Tintos;México;Tres Raíces;Tres Raíces Tempranillo;1725;tres-raices-tempranillo.png
+Tintos;México;Parvada;Parvada Reserva Blend;2248;parvada-reserva-blend.png
+Tintos;México;Parvada;Parvada Selección del Enólogo;2198;parvada-seleccion-del-enologo.png
+Tintos;México;Parvada;Parvada Syrah;2050;parvada-syrah.png
+Tintos;México;Parvada;Parvada Cabernet Franc;2050;parvada-cabernet-franc.png
+Tintos;México;Parvada;Parvada Cardenal;1188;parvada-cardenal.png
+Tintos;México;Santa Elena;Santa Elena Sophie Nebbiolo;1550;santa-elena-sophie-nebbiolo.png
+Tintos;México;Tierra Adentro;Tierra Adentro Cabernet Malbec Merlot;1225;tierra-adentro-cabernet-malbec-merlot.png
+Tintos;México;Tierra Adentro;Tierra Adentro Nebbiolo Cabernet Sauvignon;1100;tierra-adentro-nebbiolo-cabernet-sauvignon.png
+Tintos;México;Tierra Adentro;Tierra Adentro Syrah Merlot Tempranillo;1100;tierra-adentro-syrah-merlot-tempranillo.png
+Tintos;Uruguay;Montes Toscanini;Montes Toscanini Gran Tannat;2172;montes-toscanini-gran-tannat.png
+Tintos;USA;Heitz Cellar;Heitz Cellar Cabernet Sauvignon;6473;heitz-cellar-cabernet-sauvignon.png
+Tintos;USA;Artesa;Artesa Limited Release Napa Valley Cabernet Sauvignon;4638;artesa-limited-release-napa-valley-cabernet-sauvignon.png
+Tintos;USA;Artesa;Artesa Pinnacle Red Blend Napa Valley;2749;artesa-pinnacle-red-blend-napa-valley.png
+Tintos;USA;Artesa;Artesa Limited Release Napa Valley Merlot;2749;artesa-limited-release-napa-valley-merlot.png
+Tintos;USA;Artesa;Artesa Napa Valley Cabernet Sauvignon;2301;artesa-napa-valley-cabernet-sauvignon.png
+Tintos;USA;Artesa;Artesa Estate Vineyard Pinot Noir;2093;artesa-estate-vineyard-pinot-noir.png
+Tintos;USA;Titus Vineyards;Titus Cabernet Sauvignon;3944;titus-cabernet-sauvignon.png
+Tintos;USA;Abeja;Abeja Columbia Valley Cabernet Sauvignon;3874;abeja-columbia-valley-cabernet-sauvignon.png
+Tintos;USA;Abeja;Abeja Columbia Valley Merlot;3144;abeja-columbia-valley-merlot.png
+Tintos;USA;Murphy Goode;Murphy Goode Alexander Valley Cabernet Sauvignon;2761;murphy-goode-alexander-valley-cabernet-sauvignon.png
+Tintos;USA;Murphy Goode;Murphy Goode Liar's Dice Zinfandel;2146;murphy-goode-liars-dice-zinfandel.png
+Tintos;USA;Murphy Goode;Murphy Goode Pinot Noir;1392;murphy-goode-pinot-noir.png
+Tintos;USA;Murphy Goode;Murphy Goode Merlot;1392;murphy-goode-merlot.png
+Tintos;USA;Murphy Goode;Murphy Goode Cabernet Sauvignon;1392;murphy-goode-cabernet-sauvignon.png
+Tintos;USA;Murphy Goode;Murphy Goode Red Blend;1392;murphy-goode-red-blend.png
+Tintos;USA;Citation Wines;Citation Willamette Valley Pinot Noir;2146;citation-willamette-valley-pinot-noir.png
+Tintos;USA;Citation Wines;Willajory Willamette Valley Pinot Noir;1334;willajory-willamette-valley-pinot-noir.png
+Tintos;USA;Mettler Family;Mettler Epicenter Old Vine Zinfandel;1986;mettler-epicenter-old-vine-zinfandel.png
+Tintos;USA;Mettler Family;Mettler Cabernet Sauvignon;1986;mettler-cabernet-sauvignon.png
+Tintos;USA;Mettler Family;Mettler Copacetic Red Blend;1653;mettler-copacetic-red-blend.png
+Tintos;USA;Airfield Estates;Airfield Estates Cabernet Sauvignon;1537;airfield-estates-cabernet-sauvignon.png
+Tintos;USA;Goose Ridge;G3 by Goose Ridge - Merlot;1421;g3-by-goose-ridge-merlot.png
+Tintos;USA;Goose Ridge;G3 by Goose Ridge - Cabernet Sauvignon;1421;g3-by-goose-ridge-cabernet-sauvignon.png
+Tintos;USA;Granite Hill;Granite Hill Cellars Cabernet Sauvignon;899;granite-hill-cellars-cabernet-sauvignon.png
+ESPUMOSOS;;;;;
+Espumosos;España;Codorníu (Ars Collecta);Cava Ars Collecta Blanc de Blancs;1478;cava-ars-collecta-blanc-de-blancs.png
+Espumosos;España;Codorníu (Ars Collecta);Cava Ars Collecta Blanc de Noirs;1478;cava-ars-collecta-blanc-de-noirs.png
+Espumosos;España;Codorníu (Ars Collecta);Cava Ars Collecta Grand Rose Reserva;1478;cava-ars-collecta-grand-rose-reserva.png
+Espumosos;España;Codorníu (Anna);Cava Anna de Codorníu Blanc de Blancs Brut;915;cava-anna-de-codorniu-blanc-de-blancs-brut.png
+Espumosos;España;Codorníu (Anna);Cava Anna de Codorníu Brut Rosé;915;cava-anna-de-codorniu-brut-rose.png
+Espumosos;España;Codorníu (Anna);Cava Anna de Codorníu Ice Edition Semi Sec;915;cava-anna-de-codorniu-ice-edition-semi-sec.png
+Espumosos;Francia;Jean Mallet;Champagne Jean Mallet Cuvée Brut Tradition;1887;champagne-jean-mallet-cuvee-brut-tradition.png
+Espumosos;Italia;Alessandro Berselli;Alessandro Berselli Signature Collection Franciacorta Brut DOCG;2681;alessandro-berselli-signature-collection-franciacorta-brut-docg.png
+Espumosos;Italia;Alessandro Berselli;Alessandro Berselli Signature Collection Prosecco DOC Millesimato;1434;alessandro-berselli-signature-collection-prosecco-doc-millesimato.png
+Espumosos;Italia;Bottega;Bottega Gold Prosecco Spumante;1621;bottega-gold-prosecco-spumante.png
+Espumosos;Italia;Bottega;Bottega Gold Rose Spumante;1621;bottega-gold-rose-spumante.png
+Espumosos;Italia;Bottega;"Bottega ""Il Vino dei Poeti"" Prosecco";1023;bottega-il-vino-dei-poeti-prosecco.png
+Espumosos;Italia;Bottega;"Bottega Pétalo ""Il Vino Dell Amore"" Moscato";960;bottega-petalo-il-vino-dell-amore-moscato.png
+POSTRE;;;;;
+Postre;Italia;Acquesi;Acquesi Moscato d'Asti DOCG;997;acquesi-moscato-d-asti-docg.png
+Postre;México;Altotinto;Altotinto Cosecha Tardía;995;altotinto-cosecha-tardia.png
+Postre;Chile;Casas Patronales;Casas Patronales Lujuria Late Harvest;777;casas-patronales-lujuria-late-harvest.png

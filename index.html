@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Allegro Playacar - Carta de Vinos</title>
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="top">
+
+    <div class="hotel-logo-text">Royal Hideaway</div>
+
+    <header class="main-header"><h1>Carta de Vinos / Wine List</h1></header>
+
+    <nav class="category-nav">
+        <a href="#espumosos">Espumosos / Sparkling</a>
+        <a href="#blancos">Blancos / White</a>
+        <a href="#rosados">Rosados / Rosé</a>
+        <a href="#tintos">Tintos / Red</a>
+    </nav>
+
+    <nav class="country-filter">
+        <button class="filter-btn active" data-country="all">Todos los Países / All Countries</button>
+        <button class="filter-btn" data-country="Argentina">Argentina</button>
+        <button class="filter-btn" data-country="Chile">Chile</button>
+        <button class="filter-btn" data-country="España">España</button>
+        <button class="filter-btn" data-country="Francia">Francia</button>
+        <button class="filter-btn" data-country="Italia">Italia</button>
+        <button class="filter-btn" data-country="México">México</button>
+        <button class="filter-btn" data-country="Nueva Zelanda">Nueva Zelanda</button>
+        <button class="filter-btn" data-country="Uruguay">Uruguay</button>
+        <button class="filter-btn" data-country="USA">USA</button>
+    </nav>
+
+    <section id="espumosos" class="wine-section">
+        <h2>Vinos Espumosos / Sparkling Wines</h2>
+        <div class="wine-grid"></div>
+    </section>
+
+    <section id="blancos" class="wine-section">
+        <h2>Vinos Blancos / White Wines</h2>
+        <div class="wine-grid"></div>
+    </section>
+
+    <section id="rosados" class="wine-section">
+        <h2>Vinos Rosados / Rosé Wines</h2>
+        <div class="wine-grid"></div>
+    </section>
+
+    <section id="tintos" class="wine-section">
+        <h2>Vinos Tintos / Red Wines</h2>
+        <div class="wine-grid"></div>
+    </section>
+    
+    <div id="wineModal" class="modal"></div>
+
+    <script src="wines.json"></script> <script src="script.js"></script> </body>
+</html>
