@@ -16,25 +16,34 @@
 
     <header class="main-header"><h1>Carta de Vinos / Wine List</h1></header>
 
-    <nav class="category-nav">
-        <a href="#espumosos">Espumosos / Sparkling</a>
-        <a href="#blancos">Blancos / White</a>
-        <a href="#rosados">Rosados / Rosé</a>
-        <a href="#tintos">Tintos / Red</a>
-    </nav>
+    <div class="filters-container">
+        <div class="filter-section">
+            <h3 class="filter-title">Tipo / Type</h3>
+            <nav class="category-filter">
+                <button class="filter-btn active" data-category="all">Todos / All</button>
+                <button class="filter-btn" data-category="espumosos">Espumosos / Sparkling</button>
+                <button class="filter-btn" data-category="blancos">Blancos / White</button>
+                <button class="filter-btn" data-category="rosados">Rosados / Rosé</button>
+                <button class="filter-btn" data-category="tintos">Tintos / Red</button>
+            </nav>
+        </div>
 
-    <nav class="country-filter">
-        <button class="filter-btn active" data-country="all">Todos los Países / All Countries</button>
-        <button class="filter-btn" data-country="Argentina">Argentina</button>
-        <button class="filter-btn" data-country="Chile">Chile</button>
-        <button class="filter-btn" data-country="España">España</button>
-        <button class="filter-btn" data-country="Francia">Francia</button>
-        <button class="filter-btn" data-country="Italia">Italia</button>
-        <button class="filter-btn" data-country="México">México</button>
-        <button class="filter-btn" data-country="Nueva Zelanda">Nueva Zelanda</button>
-        <button class="filter-btn" data-country="Uruguay">Uruguay</button>
-        <button class="filter-btn" data-country="USA">USA</button>
-    </nav>
+        <div class="filter-section">
+            <h3 class="filter-title">País / Country</h3>
+            <nav class="country-filter">
+                <button class="filter-btn active" data-country="all">Todos / All</button>
+                <button class="filter-btn" data-country="Argentina">Argentina / Argentina</button>
+                <button class="filter-btn" data-country="Chile">Chile / Chile</button>
+                <button class="filter-btn" data-country="España">España / Spain</button>
+                <button class="filter-btn" data-country="Francia">Francia / France</button>
+                <button class="filter-btn" data-country="Italia">Italia / Italy</button>
+                <button class="filter-btn" data-country="México">México / Mexico</button>
+                <button class="filter-btn" data-country="Nueva Zelanda">Nueva Zelanda / New Zealand</button>
+                <button class="filter-btn" data-country="Uruguay">Uruguay / Uruguay</button>
+                <button class="filter-btn" data-country="USA">USA / USA</button>
+            </nav>
+        </div>
+    </div>
 
     <section id="espumosos" class="wine-section">
         <h2>Vinos Espumosos / Sparkling Wines</h2>
@@ -57,6 +66,10 @@
     </section>
     
     <div id="wineModal" class="modal"></div>
+
+    <footer class="main-footer">
+        <p>Precios en pesos mexicanos, impuestos incluidos. / Prices are in mexican pesos, taxes included</p>
+    </footer>
 
     <script src="wines.json"></script> <script src="script.js"></script> </body>
 </html>

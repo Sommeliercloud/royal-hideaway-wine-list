@@ -2,19 +2,36 @@ document.addEventListener('DOMContentLoaded', () => {
 
     let wineDatabase = [];
     let currentCountryFilter = 'all';
+    let currentCategoryFilter = 'all';
 
     const modal = document.getElementById('wineModal');
     const logo = document.querySelector('.hotel-logo-text');
+    const filtersContainer = document.querySelector('.filters-container');
 
-    // Ocultar logo al hacer scroll
+    // Traducciones de países
+    const countryTranslations = {
+        'Argentina': 'Argentina / Argentina',
+        'Chile': 'Chile / Chile',
+        'España': 'España / Spain',
+        'Francia': 'Francia / France',
+        'Italia': 'Italia / Italy',
+        'México': 'México / Mexico',
+        'Nueva Zelanda': 'Nueva Zelanda / New Zealand',
+        'Uruguay': 'Uruguay / Uruguay',
+        'USA': 'USA / USA'
+    };
+
+    // Ocultar logo y filtros al hacer scroll
     let lastScrollTop = 0;
     window.addEventListener('scroll', () => {
         const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
 
         if (scrollTop > 100) {
             logo.classList.add('hidden');
+            filtersContainer.classList.add('collapsed');
         } else {
             logo.classList.remove('hidden');
+            filtersContainer.classList.remove('collapsed');
         }
 
         lastScrollTop = scrollTop;
@@ -35,6 +52,8 @@ document.addEventListener('DOMContentLoaded', () => {
             populateWineSections(wineDatabase);
 
             setupCountryFilters();
+
+            setupCategoryFilters();
 
         })
 
@@ -70,11 +89,17 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
-        // Filtrar vinos por país si hay un filtro activo
+        // Filtrar vinos por país y categoría
 
-        const filteredWines = currentCountryFilter === 'all'
-            ? wines
-            : wines.filter(wine => wine.pais === currentCountryFilter);
+        let filteredWines = wines;
+
+        if (currentCountryFilter !== 'all') {
+            filteredWines = filteredWines.filter(wine => wine.pais === currentCountryFilter);
+        }
+
+        if (currentCategoryFilter !== 'all') {
+            filteredWines = filteredWines.filter(wine => wine.category === currentCategoryFilter);
+        }
 
 
 
@@ -88,7 +113,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             wineCard.setAttribute('onclick', `openModal('${wine.id}')`);
 
-
+            const paisTraducido = countryTranslations[wine.pais] || wine.pais;
 
             wineCard.innerHTML = `
 
@@ -100,9 +125,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
                     <span class="volume">${wine.volume}</span>
 
-                    <p class="origin">${wine.subHeader.split('–')[1].trim()}</p>
+                    <p class="origin">${paisTraducido}</p>
 
-                    <p class="price">${wine.price}</p>
+                    <p class="price">${wine.price} <span class="currency">MXN</span></p>
 
                 </div>
 
@@ -134,6 +159,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const bodyPosition = getBodyPosition(wine.body);
 
+        const paisTraducido = countryTranslations[wine.pais] || wine.pais;
+
+        const subHeaderParts = wine.subHeader.split('–');
+
+        const subHeaderConTraduccion = subHeaderParts.length > 1
+            ? `${subHeaderParts[0].trim()} – ${paisTraducido}`
+            : wine.subHeader;
+
         const modalHTML = `
 
             <div class="modal-content">
@@ -148,7 +181,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
                     <h2>${wine.name}</h2>
 
-                    <p class="wine-sub-header">${wine.volume} | ${wine.subHeader}</p>
+                    <p class="wine-sub-header">${wine.volume} | ${subHeaderConTraduccion}</p>
 
                     <h3>NOTAS DE CATA | TASTING NOTES</h3>
 
@@ -236,7 +269,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function setupCountryFilters() {
 
-        const filterButtons = document.querySelectorAll('.filter-btn');
+        const filterButtons = document.querySelectorAll('.country-filter .filter-btn');
 
 
 
@@ -244,7 +277,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             button.addEventListener('click', function() {
 
-                // Remover clase active de todos los botones
+                // Remover clase active de todos los botones de país
 
                 filterButtons.forEach(btn => btn.classList.remove('active'));
 
@@ -259,6 +292,48 @@ document.addEventListener('DOMContentLoaded', () => {
                 // Actualizar el filtro actual
 
                 currentCountryFilter = this.getAttribute('data-country');
+
+
+
+                // Repoblar las secciones con el filtro aplicado
+
+                populateWineSections(wineDatabase);
+
+            });
+
+        });
+
+    }
+
+
+
+    // Configurar filtros de categoría
+
+    function setupCategoryFilters() {
+
+        const categoryButtons = document.querySelectorAll('.category-filter .filter-btn');
+
+
+
+        categoryButtons.forEach(button => {
+
+            button.addEventListener('click', function() {
+
+                // Remover clase active de todos los botones de categoría
+
+                categoryButtons.forEach(btn => btn.classList.remove('active'));
+
+
+
+                // Agregar clase active al botón clickeado
+
+                this.classList.add('active');
+
+
+
+                // Actualizar el filtro actual
+
+                currentCategoryFilter = this.getAttribute('data-category');
 
 
 
